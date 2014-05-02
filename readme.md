@@ -20,6 +20,9 @@ For each principle, we try to give some Front-End tips and best practices.
 
 ## Principle 2. Develop a Common Vocabulary
 
+	Describe systems, features, defects... with metaphor and imagery.
+	Simplify and clarify that everyone can tell about how the system works.
+
 ## Principle 3. Code and Design Simply
 
 ## Principle 4. Adopt Test-Driven Development
