@@ -11,8 +11,64 @@ For each principle, we try to give some Front-End tips and best practices.
 	Conventions and code guidelines help developers 
 		1. to communicate through their code  
 		2. to educate developers about their team values (like working together)	
-
 ### HTML Code Guidelines
+
+#### Doctype
+Start with a proper doctype declaration for browsers
+
+	<!DOCTYPE html>
+
+#### Encoding
+Use UTF-8 for internationalization
+
+	<meta charset="utf-8">
+
+#### Indentation
+Indent nested and child elements
+
+	<div class="tweet">
+		<a href="path/to/somewhere">
+	</div>
+
+#### Naming
+Name class and id with meaning
+
+	<div class="top light" id="tweet-list">
+
+#### Lower case
+Lower case for tag and attribute
+
+	<div class="top" id="header" attribute="value">
+
+#### Close tag
+Place a comment on closing div/section tags to indicate closing elements
+
+	</div> <!-- Facebook post list -->
+
+#### Double quotes
+Double quotes on attributes value
+
+	<img src="path.png" alt="Logo">
+
+#### Reducing markup
+Simple DOM design: less is more in markups using
+
+	<!-- Not so great -->
+	<span class="avatar">
+		<img src="...">
+	</span >
+	
+	<!-- Better -->
+	<img class="avatar" src="...">
+
+#### Deep diving
+Sources and documentation
+
+	https://github.com/necolas/idiomatic-html
+	http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml
+	http://make.wordpress.org/core/handbook/coding-standards/html/
+	http://isobar-idev.github.io/code-standards/
+	http://mdo.github.io/code-guide
 
 ### CSS Code Guidelines
 
