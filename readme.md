@@ -24,24 +24,44 @@ For each principle, we try to give some Front-End tips and best practices.
 	Simplify and clarify that everyone can tell about how the system works.
 
 ## Principle 3. Code and Design Simply
+	
+	In progress...
 
 ## Principle 4. Adopt Test-Driven Development
 
+	In progress...
+
 ## Principle 5. Play the Planning Game
+
+	In progress...
 
 ## Principle 6. Integrate Continually
 
+	In progress...
+
 ## Principle 7. Adopt Collective Code Ownership
+
+	In progress...
 
 ## Principle 8. Refactor Mercilessly
 
+	In progress...
+
 ## Principe 9. Add a Customer to the Team
+
+	In progress...
 
 ## Principe 10. Release Regularly
 
+	In progress...
+
 ## Principe 11. Work at a Sustainable Pace
 
+	In progress...
+
 ## Principe 12. Practice Pair Programming
+
+	In progress...
 
 ## Deep diving
 
