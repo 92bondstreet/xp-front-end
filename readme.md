@@ -72,6 +72,110 @@ Sources and documentation
 
 ### CSS Code Guidelines
 
+#### Selectors
+Selectors are evaluated right to left and should be as broad as possible. Really specific selectors are unnecessary and hinder performance.
+
+	a.nav {
+	  color: blue;
+	}
+
+#### Blocks
+Use multi-line blocks and combination to make CSS cleaner and easier to read: Each style gets its own line
+
+	.someDiv {
+	  background: red;
+	  padding: 2em;
+	  border: 1px solid black;
+	}
+
+	h1, h2, h3 {
+	  font-family: tahoma;
+	  color: #333
+	}
+
+#### Comments
+Use comments to denote groups.
+
+	/* Here's how you comment CSS */
+
+#### Whitespace
+Put before and after each style block.
+
+	a.nav {
+	  color: red;
+	}
+
+	.some-class {
+	  background: @purple;
+	}
+
+#### Naming conventions
+Use meaningful class and id names
+
+	.link.first {
+	  color: red;
+	}
+
+#### Reset
+The reset allows your layout look consistent in all browsers.
+
+	<link rel="stylesheet" type="text/css" href="reset.css" />
+
+#### Structure
+Create Your HTML First and Organize the css file with a Top-down Structure.
+
+	/* Generic classes */
+	Style goes here...
+
+	/* Header */
+	Style goes here...
+
+	/* Content */
+	Style goes here...
+
+#### Multiple classes
+Add multiple classes to an element.
+
+	<div class="box right"></div>
+
+#### Shorthand
+Combine styles in one line.
+
+	#box {
+	  margin: 8px 7px 0px 5px; // top, right, bottom, and left values, respectively.
+	}
+
+#### Alphabetize your Properties
+Improved readability
+
+	#cotton-candy {
+	  color: #fff;
+	  float: left;
+	  font-weight:bold;
+	  height: 200px;
+	  margin: 0;
+	  padding: 0;
+	  width: 150px;
+	}
+
+#### Generic classes
+Create generic classes to readability
+
+	.left {
+	  float:left
+	}
+	
+	.right {
+	  float:right
+	}
+
+#### Use Multiple Stylesheets
+Make smaller and css multiple files.
+
+	<link rel="stylesheet" type="text/css" href="reset.css"/>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<link rel="stylesheet" type="text/css" href="widget.css"/>
+
 ### Javascript Code Guidelines
 
 ## Principle 2. Develop a Common Vocabulary
