@@ -4,9 +4,19 @@
 
 Steps are listed from the simplest to the most complicated to implement in a Front-End team.
 
-For each principles, we detailled Front-End dedicated examples.
+For each principle, we try to give some Front-End tips and best practices.
 
 ## Principle 1. Develop Coding Standards
+
+	Conventions and code guidelines help developers 
+		1. to communicate through their code  
+		2. to educate developers about their team values (like working together)	
+
+### HTML Code Guidelines
+
+### CSS Code Guidelines
+
+### Javascript Code Guidelines
 
 ## Principle 2. Develop a Common Vocabulary
 
